@@ -1,0 +1,27 @@
+#projects{
+   
+    padding: 15px;
+}
+#projects>h1{
+    text-align: center;
+   
+}
+#projects a{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    text-decoration: none;
+    background-color:rgb(238, 246, 246);
+    padding: 3px 10px;
+    border:2px white;
+    border-radius: 20px;
+    color: black;
+}
+#projects a:hover{
+    background-color:  #00bcd4;
+    color: white;
+   
+    cursor: pointer;
+}
