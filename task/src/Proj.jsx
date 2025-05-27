@@ -1,4 +1,4 @@
-import './proj.css'
+import './Proj.css'
 
 function Project(){
    return <div id="allproject">
