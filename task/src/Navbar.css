@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  color: black;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar p {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.navbar p span:first-child {
+  font-size: 2rem;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+#rightNav {
+  display: flex;
+  gap: 20px;
+}
+
+#rightNav span {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+#rightNav span:hover {
+  color: #555; /* subtle hover effect */
+}

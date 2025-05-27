@@ -1,0 +1,32 @@
+#allproject{
+    margin: 50px 0px 0px 20px;
+    width: 97%;
+}
+
+.imagesProject{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap: 10px;
+}
+#houses{
+  position: relative;
+}
+#houses>img{
+    width: 100%;
+  
+}
+#houses>p{
+   position:absolute;
+   top:-15px;
+   left:0px;
+   background-color: black;
+   color: white;
+   padding: 5px 10px;
+}
+@media (max-width: 600px) {
+  #allproject {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}

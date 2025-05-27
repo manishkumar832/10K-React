@@ -1,0 +1,81 @@
+#front {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#front img {
+  width: 98%;
+  margin-left: 15px;
+  height: auto;
+  display: block;
+}
+
+#front p {
+  position: absolute;
+  bottom: 15rem;
+  left: 40rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+
+#front p span {
+  font-size: 4rem;
+  background-color: black;
+  color: white;
+  padding: 0 10px;
+}
+
+
+@media (max-width: 1024px) {
+  #front p {
+    bottom: 8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5rem;
+  }
+
+  #front p span {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #front img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #front p {
+    bottom: 6rem;
+    font-size: 2rem;
+  }
+
+  #front p span {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #front p {
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    flex-direction: row; 
+    align-items: center;
+    text-align: center;
+  }
+
+  #front p span {
+    font-size: 2rem;
+    padding: 0 8px;
+  }
+
+}

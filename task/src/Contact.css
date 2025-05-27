@@ -1,0 +1,16 @@
+#contactForm{
+    width: 97%;
+    margin: 0px 10px;
+}
+#contactForm>input{
+    display: block;
+    line-height: 30px;
+    width: 100%;
+   margin: 20px 0px;
+
+}
+#contactForm>span{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}

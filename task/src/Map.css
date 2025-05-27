@@ -1,0 +1,16 @@
+.responsive-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0 0 5px;
+  display: block;
+  border-radius: 8px; /* optional: for rounded corners */
+}
+
+/* Optional refinement for small screens */
+@media (max-width: 768px) {
+  .responsive-image {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}

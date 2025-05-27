@@ -1,0 +1,27 @@
+#aboutcontainer{
+    margin:5rem 0 0 1.5rem;
+    width: 97%;
+}
+#persons{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap: 10px;
+    margin-top:3rem;
+}
+#p1{
+    width: 100%;
+}
+#p1>img{
+    width: 100%;
+}
+#p1>button{
+    width: 100%;
+    border: none;
+    padding: 8px;
+}
+@media (max-width: 600px) {
+  #aboutcontainer {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
