@@ -1,0 +1,33 @@
+.cards{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap: 20px;
+}
+.cards:hover{
+        transform: translateY(-10px); 
+    animation: slideIn 0.5s ease-out forwards;
+
+}
+.cards>img{
+    width: 100%;
+    border-radius: 20px;
+}
+.cards>p{
+    text-align: center;
+}
+
+.cards>span{
+display: flex;
+justify-content: center;
+}
+#total>h1{
+    text-align: center;
+    background-color: lightgray;
+    padding: 3px 0px;
+}
