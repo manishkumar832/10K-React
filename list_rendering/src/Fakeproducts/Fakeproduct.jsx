@@ -5,7 +5,7 @@ const Fakeproduct=()=>{
     console.log(data)
     return(
         <div id="total">
-            <h1>Recipies</h1>
+            <h1>Meal In A Flash</h1>
            <div className="cardContainer">
             {data.map((item,index)=>{
                 return(
