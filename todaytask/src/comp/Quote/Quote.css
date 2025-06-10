@@ -1,0 +1,59 @@
+.quote-container {
+  width: 100vw;
+  height: 80vh; /* better for vertical responsiveness */
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #f9f9f9; /* optional */
+}
+
+.quote-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.quote-container button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.quote-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .quote-container {
+    padding: 2rem;
+    height: auto;
+  }
+
+  .quote-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .quote-container button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .quote-container h1 {
+    font-size: 1.2rem;
+  }
+
+  .quote-container button {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+}
